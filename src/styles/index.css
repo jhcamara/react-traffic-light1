@@ -10,3 +10,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body {
+    background-color: black;
+}
+
+.redlight {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 30px;
+    margin-top: 90px;
+}
+
+.greenlight {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 30px;
+    margin-top: 90px;
+}
+
+.yellowlight {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 30px;
+  
+    margin-top: 90px;
+}
+
+.activelight {
+    box-shadow: 0px 0px 40px 5px white;
+}
+
+.inactivelight {
+    box-shadow: 0px 0px 0px 0px white;
+}
